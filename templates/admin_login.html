@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Acesso administrativo | Conecta Campus</title><link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"></head>
+<body class="login-body">
+  <main class="login-shell">
+    <a class="brand" href="{{ url_for('home') }}"><span class="brand-mark">C</span><span><strong>Conecta</strong> Campus</span></a>
+    <section class="login-card"><p class="eyebrow dark"><span></span> Área administrativa</p><h1>Bem-vindo de volta.</h1><p>Entre para acompanhar os indicadores agregados da plataforma.</p>
+      {% with messages = get_flashed_messages(with_categories=true) %}{% for category, message in messages %}<div class="login-alert {{ category }}">{{ message }}</div>{% endfor %}{% endwith %}
+      {% if admin_count == 0 %}<div class="login-alert setup">Nenhum administrador foi criado. Execute <code>python manage_admin.py</code> no console do PythonAnywhere.</div>{% endif %}
+      <form method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><label>Usuário<input name="username" autocomplete="username" required></label><label>Senha<input type="password" name="password" autocomplete="current-password" required></label><button class="button button-primary" type="submit">Entrar <span>→</span></button></form>
+    </section>
+    <a class="login-back" href="{{ url_for('home') }}">← Voltar para a plataforma</a>
+  </main>
+</body>
+</html>

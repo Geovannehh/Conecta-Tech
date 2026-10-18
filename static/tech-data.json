@@ -1,0 +1,1536 @@
+{
+  "areas": [
+    {
+      "id": "frontend",
+      "group": "Desenvolvimento",
+      "name": "Front-end",
+      "description": "Interfaces que transformam código em experiências acessíveis para a web.",
+      "roles": [
+        "Front-end Developer",
+        "UI Engineer",
+        "Web Developer",
+        "Especialista em acessibilidade"
+      ],
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Vue",
+        "Angular",
+        "Svelte"
+      ],
+      "missions": [
+        {
+          "id": "frontend-0",
+          "title": "Estruture uma página semântica",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "frontend-1",
+          "title": "Crie um layout responsivo",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "frontend-2",
+          "title": "Implemente eventos e estado",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "frontend-3",
+          "title": "Consuma uma API com tratamento de erros",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "frontend-4",
+          "title": "Adicione testes e acessibilidade",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "frontend-5",
+          "title": "Publique um portfólio com documentação",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://developer.mozilla.org/pt-BR/docs/Learn_web_development",
+      "number": "01"
+    },
+    {
+      "id": "backend",
+      "group": "Desenvolvimento",
+      "name": "Back-end",
+      "description": "APIs, regras de negócio e serviços que sustentam produtos digitais.",
+      "roles": [
+        "Back-end Developer",
+        "API Developer",
+        "Software Engineer",
+        "Integration Engineer"
+      ],
+      "stack": [
+        "Python / Django",
+        "Node.js / NestJS",
+        "Java / Spring",
+        "C# / .NET",
+        "Go",
+        "PHP / Laravel",
+        "Ruby / Rails"
+      ],
+      "missions": [
+        {
+          "id": "backend-0",
+          "title": "Modele regras de negócio",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "backend-1",
+          "title": "Crie uma API HTTP",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "backend-2",
+          "title": "Persista dados com SQL",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "backend-3",
+          "title": "Implemente autenticação segura",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "backend-4",
+          "title": "Teste erros e autorização",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "backend-5",
+          "title": "Publique uma API documentada",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side",
+      "number": "02"
+    },
+    {
+      "id": "fullstack",
+      "group": "Desenvolvimento",
+      "name": "Full-stack",
+      "description": "Construa produtos completos conectando interface, servidor e dados.",
+      "roles": [
+        "Full-stack Developer",
+        "Product Engineer",
+        "Web Engineer",
+        "Founding Engineer"
+      ],
+      "stack": [
+        "React + Node.js",
+        "Next.js + PostgreSQL",
+        "Django + HTMX",
+        "Laravel + Vue",
+        "ASP.NET + Angular"
+      ],
+      "missions": [
+        {
+          "id": "fullstack-0",
+          "title": "Desenhe o fluxo de um produto",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "fullstack-1",
+          "title": "Construa a interface",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "fullstack-2",
+          "title": "Implemente endpoints",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "fullstack-3",
+          "title": "Conecte banco e interface",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "fullstack-4",
+          "title": "Teste o fluxo de ponta a ponta",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "fullstack-5",
+          "title": "Entregue um produto com deploy",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://fullstackopen.com/en/",
+      "number": "03"
+    },
+    {
+      "id": "mobile",
+      "group": "Desenvolvimento",
+      "name": "Mobile",
+      "description": "Aplicativos para dispositivos móveis com atenção a desempenho e experiência.",
+      "roles": [
+        "Android Developer",
+        "iOS Developer",
+        "Flutter Developer",
+        "React Native Developer"
+      ],
+      "stack": [
+        "Kotlin",
+        "Swift",
+        "SwiftUI",
+        "Flutter / Dart",
+        "React Native",
+        "Jetpack Compose"
+      ],
+      "missions": [
+        {
+          "id": "mobile-0",
+          "title": "Explore o ciclo de vida do app",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "mobile-1",
+          "title": "Monte uma navegação",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "mobile-2",
+          "title": "Consuma uma API",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "mobile-3",
+          "title": "Implemente persistência offline",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "mobile-4",
+          "title": "Teste em diferentes telas",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "mobile-5",
+          "title": "Prepare uma versão de demonstração",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://developer.android.com/courses",
+      "number": "04"
+    },
+    {
+      "id": "dados",
+      "group": "Dados e IA",
+      "name": "Análise de dados e BI",
+      "description": "Transforme dados em indicadores, análises e decisões de negócio.",
+      "roles": [
+        "Analista de Dados",
+        "Analista de BI",
+        "Analytics Engineer",
+        "BI Developer"
+      ],
+      "stack": [
+        "SQL",
+        "Python / pandas",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "dbt"
+      ],
+      "missions": [
+        {
+          "id": "dados-0",
+          "title": "Defina uma pergunta de negócio",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "dados-1",
+          "title": "Consulte uma base com SQL",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "dados-2",
+          "title": "Limpe dados e documente limites",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "dados-3",
+          "title": "Crie indicadores consistentes",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "dados-4",
+          "title": "Construa um dashboard",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "dados-5",
+          "title": "Apresente descobertas e incertezas",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://learn.microsoft.com/pt-br/training/powerplatform/power-bi",
+      "number": "05"
+    },
+    {
+      "id": "engenharia-dados",
+      "group": "Dados e IA",
+      "name": "Engenharia de dados",
+      "description": "Pipelines e plataformas para disponibilizar dados confiáveis em escala.",
+      "roles": [
+        "Data Engineer",
+        "Data Platform Engineer",
+        "ETL Developer",
+        "Data Architect"
+      ],
+      "stack": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Airflow",
+        "Kafka",
+        "Databricks",
+        "Snowflake"
+      ],
+      "missions": [
+        {
+          "id": "engenharia-dados-0",
+          "title": "Modele uma base analítica",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "engenharia-dados-1",
+          "title": "Crie uma ingestão incremental",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "engenharia-dados-2",
+          "title": "Transforme dados com testes",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "engenharia-dados-3",
+          "title": "Orquestre o pipeline",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "engenharia-dados-4",
+          "title": "Monitore qualidade e falhas",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "engenharia-dados-5",
+          "title": "Documente linhagem e recuperação",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://spark.apache.org/docs/latest/",
+      "number": "06"
+    },
+    {
+      "id": "ia",
+      "group": "Dados e IA",
+      "name": "Inteligência artificial e ML",
+      "description": "Modelos preditivos e sistemas inteligentes avaliados com rigor.",
+      "roles": [
+        "Cientista de Dados",
+        "ML Engineer",
+        "AI Engineer",
+        "MLOps Engineer",
+        "Research Scientist"
+      ],
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "PyTorch",
+        "TensorFlow",
+        "MLflow",
+        "Hugging Face",
+        "RAG"
+      ],
+      "missions": [
+        {
+          "id": "ia-0",
+          "title": "Explore estatística e álgebra",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "ia-1",
+          "title": "Prepare um dataset sem vazamento",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "ia-2",
+          "title": "Treine um modelo de referência",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "ia-3",
+          "title": "Avalie métricas e vieses",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "ia-4",
+          "title": "Sirva inferência com monitoramento",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "ia-5",
+          "title": "Documente limites e custos do modelo",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://huggingface.co/learn",
+      "number": "07"
+    },
+    {
+      "id": "cloud",
+      "group": "Infraestrutura",
+      "name": "Cloud computing",
+      "description": "Infraestrutura elástica, redes e serviços gerenciados em nuvem.",
+      "roles": [
+        "Cloud Engineer",
+        "Cloud Architect",
+        "Cloud Consultant",
+        "FinOps Analyst"
+      ],
+      "stack": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Terraform",
+        "Linux",
+        "Docker"
+      ],
+      "missions": [
+        {
+          "id": "cloud-0",
+          "title": "Compare modelos de serviço",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "cloud-1",
+          "title": "Configure identidade e permissões",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "cloud-2",
+          "title": "Desenhe uma rede privada",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "cloud-3",
+          "title": "Provisione com infraestrutura como código",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "cloud-4",
+          "title": "Configure orçamento e alertas",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "cloud-5",
+          "title": "Documente backup e recuperação",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://learn.microsoft.com/pt-br/training/azure/",
+      "number": "08"
+    },
+    {
+      "id": "devops",
+      "group": "Infraestrutura",
+      "name": "DevOps e SRE",
+      "description": "Automação de entregas e confiabilidade dos sistemas em produção.",
+      "roles": [
+        "DevOps Engineer",
+        "SRE",
+        "Platform Engineer",
+        "Release Engineer"
+      ],
+      "stack": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "Terraform",
+        "Prometheus",
+        "Grafana"
+      ],
+      "missions": [
+        {
+          "id": "devops-0",
+          "title": "Automatize build e testes",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "devops-1",
+          "title": "Empacote uma aplicação",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "devops-2",
+          "title": "Crie um pipeline de entrega",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "devops-3",
+          "title": "Defina indicadores e objetivos de serviço",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "devops-4",
+          "title": "Simule um incidente local",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "devops-5",
+          "title": "Escreva um relatório e plano de recuperação",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://sre.google/books/",
+      "number": "09"
+    },
+    {
+      "id": "seguranca",
+      "group": "Segurança",
+      "name": "Cibersegurança",
+      "description": "Proteja aplicações, identidades e operações com práticas defensivas.",
+      "roles": [
+        "SOC Analyst",
+        "Security Engineer",
+        "Pentester",
+        "AppSec Engineer",
+        "Threat Hunter"
+      ],
+      "stack": [
+        "Linux",
+        "Wireshark",
+        "SIEM",
+        "OWASP",
+        "Burp Suite",
+        "Python",
+        "IAM"
+      ],
+      "missions": [
+        {
+          "id": "seguranca-0",
+          "title": "Mapeie ameaças de uma aplicação",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "seguranca-1",
+          "title": "Revise autenticação e permissões",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "seguranca-2",
+          "title": "Analise logs em laboratório",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "seguranca-3",
+          "title": "Teste vulnerabilidades em ambiente autorizado",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "seguranca-4",
+          "title": "Crie um plano de resposta",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "seguranca-5",
+          "title": "Documente correções e evidências",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://owasp.org/www-project-top-ten/",
+      "number": "10"
+    },
+    {
+      "id": "redes",
+      "group": "Infraestrutura",
+      "name": "Redes e telecom",
+      "description": "Conectividade, protocolos e operação de redes corporativas.",
+      "roles": [
+        "Network Engineer",
+        "Analista de Redes",
+        "NOC Analyst",
+        "Telecom Engineer"
+      ],
+      "stack": [
+        "TCP/IP",
+        "DNS",
+        "Cisco",
+        "VPN",
+        "Wireshark",
+        "SD-WAN"
+      ],
+      "missions": [
+        {
+          "id": "redes-0",
+          "title": "Desenhe uma topologia",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "redes-1",
+          "title": "Calcule sub-redes",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "redes-2",
+          "title": "Configure DNS em laboratório",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "redes-3",
+          "title": "Analise pacotes de teste",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "redes-4",
+          "title": "Defina segmentação e firewall",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "redes-5",
+          "title": "Documente diagnóstico de conectividade",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://www.netacad.com/",
+      "number": "11"
+    },
+    {
+      "id": "qa",
+      "group": "Desenvolvimento",
+      "name": "Qualidade e testes",
+      "description": "Previna defeitos e avalie a qualidade de produtos de software.",
+      "roles": [
+        "QA Analyst",
+        "QA Engineer",
+        "SDET",
+        "Test Automation Engineer"
+      ],
+      "stack": [
+        "Playwright",
+        "Cypress",
+        "Selenium",
+        "pytest",
+        "Postman",
+        "k6"
+      ],
+      "missions": [
+        {
+          "id": "qa-0",
+          "title": "Escreva critérios de aceite",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "qa-1",
+          "title": "Modele casos por risco",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "qa-2",
+          "title": "Execute testes exploratórios",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "qa-3",
+          "title": "Automatize um fluxo crítico",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "qa-4",
+          "title": "Teste uma API e seus erros",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "qa-5",
+          "title": "Produza um relatório de qualidade",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://playwright.dev/docs/intro",
+      "number": "12"
+    },
+    {
+      "id": "design",
+      "group": "Produto e design",
+      "name": "UX, UI e pesquisa",
+      "description": "Descubra necessidades e projete experiências úteis, inclusivas e consistentes.",
+      "roles": [
+        "Product Designer",
+        "UX Designer",
+        "UI Designer",
+        "UX Researcher",
+        "Content Designer"
+      ],
+      "stack": [
+        "Figma",
+        "FigJam",
+        "Design Systems",
+        "WCAG",
+        "Prototipação",
+        "Pesquisa qualitativa"
+      ],
+      "missions": [
+        {
+          "id": "design-0",
+          "title": "Formule hipóteses de pesquisa",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "design-1",
+          "title": "Planeje entrevistas com consentimento",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "design-2",
+          "title": "Mapeie a jornada do usuário",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "design-3",
+          "title": "Prototipe um fluxo",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "design-4",
+          "title": "Faça um teste de usabilidade",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "design-5",
+          "title": "Documente decisões e acessibilidade",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+      "number": "13"
+    },
+    {
+      "id": "produto",
+      "group": "Produto e design",
+      "name": "Produto e agilidade",
+      "description": "Conecte estratégia, descoberta e entrega de valor em produtos digitais.",
+      "roles": [
+        "Product Manager",
+        "Product Owner",
+        "Scrum Master",
+        "Agile Coach",
+        "Business Analyst"
+      ],
+      "stack": [
+        "Discovery",
+        "SQL",
+        "Métricas de produto",
+        "Scrum",
+        "Kanban",
+        "Jira"
+      ],
+      "missions": [
+        {
+          "id": "produto-0",
+          "title": "Defina um problema e público",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "produto-1",
+          "title": "Mapeie hipóteses de valor",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "produto-2",
+          "title": "Priorize oportunidades",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "produto-3",
+          "title": "Escreva um experimento",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "produto-4",
+          "title": "Defina métricas de resultado",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "produto-5",
+          "title": "Apresente um roadmap orientado a objetivos",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://scrumguides.org/",
+      "number": "14"
+    },
+    {
+      "id": "games",
+      "group": "Tecnologias emergentes",
+      "name": "Games e computação gráfica",
+      "description": "Jogos, simulações e experiências interativas em tempo real.",
+      "roles": [
+        "Game Developer",
+        "Gameplay Programmer",
+        "Technical Artist",
+        "Graphics Engineer"
+      ],
+      "stack": [
+        "Unity / C#",
+        "Unreal / C++",
+        "Godot",
+        "Blender",
+        "OpenGL"
+      ],
+      "missions": [
+        {
+          "id": "games-0",
+          "title": "Implemente um loop de jogo",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "games-1",
+          "title": "Programe controles e física",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "games-2",
+          "title": "Crie uma cena interativa",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "games-3",
+          "title": "Adicione áudio e feedback",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "games-4",
+          "title": "Meça desempenho",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "games-5",
+          "title": "Publique uma demo jogável",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://docs.godotengine.org/pt-br/stable/",
+      "number": "15"
+    },
+    {
+      "id": "iot",
+      "group": "Tecnologias emergentes",
+      "name": "IoT e sistemas embarcados",
+      "description": "Software que interage com sensores, dispositivos e o mundo físico.",
+      "roles": [
+        "Embedded Engineer",
+        "Firmware Developer",
+        "IoT Engineer",
+        "Robotics Engineer"
+      ],
+      "stack": [
+        "C",
+        "C++",
+        "Rust",
+        "ESP32",
+        "Arduino",
+        "MQTT",
+        "FreeRTOS"
+      ],
+      "missions": [
+        {
+          "id": "iot-0",
+          "title": "Explore eletrônica básica",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "iot-1",
+          "title": "Leia um sensor em simulador",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "iot-2",
+          "title": "Implemente comunicação MQTT",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "iot-3",
+          "title": "Controle temporização e memória",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "iot-4",
+          "title": "Proteja comunicação do dispositivo",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "iot-5",
+          "title": "Documente um protótipo conectado",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://docs.arduino.cc/",
+      "number": "16"
+    },
+    {
+      "id": "banco-dados",
+      "group": "Infraestrutura",
+      "name": "Bancos de dados",
+      "description": "Modelagem, desempenho e disponibilidade das informações.",
+      "roles": [
+        "DBA",
+        "Database Engineer",
+        "Database Reliability Engineer",
+        "Data Modeler"
+      ],
+      "stack": [
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "Oracle",
+        "MongoDB",
+        "Redis"
+      ],
+      "missions": [
+        {
+          "id": "banco-dados-0",
+          "title": "Modele entidades e relações",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "banco-dados-1",
+          "title": "Escreva consultas e transações",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "banco-dados-2",
+          "title": "Analise planos e índices",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "banco-dados-3",
+          "title": "Configure papéis e permissões",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "banco-dados-4",
+          "title": "Teste backup e restauração",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "banco-dados-5",
+          "title": "Documente capacidade e manutenção",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://www.postgresql.org/docs/",
+      "number": "17"
+    },
+    {
+      "id": "suporte",
+      "group": "Operações e negócios",
+      "name": "Suporte e gestão de TI",
+      "description": "Resolva incidentes e mantenha serviços e estações funcionando.",
+      "roles": [
+        "Service Desk Analyst",
+        "Analista de Suporte",
+        "Sysadmin",
+        "IT Manager"
+      ],
+      "stack": [
+        "Windows",
+        "Linux",
+        "Active Directory",
+        "Microsoft 365",
+        "ITIL",
+        "PowerShell"
+      ],
+      "missions": [
+        {
+          "id": "suporte-0",
+          "title": "Organize um catálogo de serviços",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "suporte-1",
+          "title": "Documente diagnóstico de incidentes",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "suporte-2",
+          "title": "Configure uma estação de laboratório",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "suporte-3",
+          "title": "Automatize uma tarefa repetitiva",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "suporte-4",
+          "title": "Desenhe um fluxo de escalonamento",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "suporte-5",
+          "title": "Escreva um artigo de base de conhecimento",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://learn.microsoft.com/pt-br/training/",
+      "number": "18"
+    },
+    {
+      "id": "erp",
+      "group": "Operações e negócios",
+      "name": "ERP, CRM e automação",
+      "description": "Integre operações de negócio e automatize processos corporativos.",
+      "roles": [
+        "Consultor SAP",
+        "Salesforce Developer",
+        "Analista ERP",
+        "RPA Developer",
+        "Consultor Dynamics"
+      ],
+      "stack": [
+        "SAP / ABAP",
+        "Salesforce / Apex",
+        "Dynamics 365",
+        "Power Platform",
+        "UiPath",
+        "Python"
+      ],
+      "missions": [
+        {
+          "id": "erp-0",
+          "title": "Mapeie um processo de negócio",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "erp-1",
+          "title": "Defina entidades e permissões",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "erp-2",
+          "title": "Configure um fluxo em sandbox",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "erp-3",
+          "title": "Integre dados de uma API",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "erp-4",
+          "title": "Automatize uma tarefa com auditoria",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "erp-5",
+          "title": "Documente regras e exceções",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://trailhead.salesforce.com/pt-BR",
+      "number": "19"
+    },
+    {
+      "id": "governanca",
+      "group": "Segurança",
+      "name": "Governança e privacidade",
+      "description": "Gerencie riscos, controles e uso responsável de informações.",
+      "roles": [
+        "GRC Analyst",
+        "Privacy Engineer",
+        "DPO",
+        "IT Auditor",
+        "IT Governance Analyst"
+      ],
+      "stack": [
+        "Gestão de riscos",
+        "ISO 27001",
+        "NIST CSF",
+        "Catálogo de dados",
+        "Controles de acesso"
+      ],
+      "missions": [
+        {
+          "id": "governanca-0",
+          "title": "Inventarie ativos e dados",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "governanca-1",
+          "title": "Construa uma matriz de riscos",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "governanca-2",
+          "title": "Mapeie controles de segurança",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "governanca-3",
+          "title": "Planeje evidências de auditoria",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "governanca-4",
+          "title": "Defina retenção e descarte",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "governanca-5",
+          "title": "Apresente um plano de melhoria",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://www.nist.gov/cyberframework",
+      "number": "20"
+    },
+    {
+      "id": "arquitetura",
+      "group": "Desenvolvimento",
+      "name": "Arquitetura e liderança técnica",
+      "description": "Decisões técnicas para sistemas sustentáveis e equipes eficazes.",
+      "roles": [
+        "Software Architect",
+        "Solutions Architect",
+        "Tech Lead",
+        "Staff Engineer",
+        "Engineering Manager"
+      ],
+      "stack": [
+        "System Design",
+        "C4",
+        "ADRs",
+        "Observabilidade",
+        "Sistemas distribuídos",
+        "DDD"
+      ],
+      "missions": [
+        {
+          "id": "arquitetura-0",
+          "title": "Defina requisitos de qualidade",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "arquitetura-1",
+          "title": "Desenhe limites de domínio",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "arquitetura-2",
+          "title": "Compare decisões em um ADR",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "arquitetura-3",
+          "title": "Modele disponibilidade e consistência",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "arquitetura-4",
+          "title": "Revise custos e riscos",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "arquitetura-5",
+          "title": "Apresente uma arquitetura com trade-offs",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://c4model.com/",
+      "number": "21"
+    },
+    {
+      "id": "web3",
+      "group": "Tecnologias emergentes",
+      "name": "Blockchain e Web3",
+      "description": "Sistemas distribuídos com contratos e registros verificáveis.",
+      "roles": [
+        "Blockchain Developer",
+        "Smart Contract Engineer",
+        "Web3 Engineer",
+        "Smart Contract Auditor"
+      ],
+      "stack": [
+        "Solidity",
+        "Ethereum",
+        "Ethers.js",
+        "Foundry",
+        "Hardhat",
+        "Rust"
+      ],
+      "missions": [
+        {
+          "id": "web3-0",
+          "title": "Estude chaves e assinaturas",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "web3-1",
+          "title": "Modele um contrato simples",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "web3-2",
+          "title": "Escreva testes em rede local",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "web3-3",
+          "title": "Analise riscos e permissões",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "web3-4",
+          "title": "Meça custos de execução",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "web3-5",
+          "title": "Documente uma demo sem ativos reais",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://ethereum.org/pt-br/developers/",
+      "number": "22"
+    },
+    {
+      "id": "xr",
+      "group": "Tecnologias emergentes",
+      "name": "Realidade estendida",
+      "description": "Experiências de realidade aumentada, virtual e computação espacial.",
+      "roles": [
+        "XR Developer",
+        "AR Developer",
+        "VR Developer",
+        "Spatial Designer"
+      ],
+      "stack": [
+        "Unity",
+        "Unreal",
+        "WebXR",
+        "OpenXR",
+        "C#",
+        "Three.js"
+      ],
+      "missions": [
+        {
+          "id": "xr-0",
+          "title": "Explore coordenadas 3D",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "xr-1",
+          "title": "Monte uma cena",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "xr-2",
+          "title": "Implemente interação espacial",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "xr-3",
+          "title": "Adicione feedback acessível",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "xr-4",
+          "title": "Teste conforto e desempenho",
+          "xp": 50,
+          "description": "Estude o tema, produza um pequeno exercício e registre suas decisões antes de concluir."
+        },
+        {
+          "id": "xr-5",
+          "title": "Entregue uma experiência de demonstração",
+          "xp": 150,
+          "description": "Entregue o projeto, registre como executá-lo e descreva o que aprendeu."
+        }
+      ],
+      "resource": "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API",
+      "number": "23"
+    }
+  ],
+  "salaries": [
+    {
+      "role": "Front-end",
+      "level": "Júnior",
+      "p25": 6050,
+      "p50": 6850,
+      "p75": 8750,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Front-end",
+      "level": "Pleno",
+      "p25": 9400,
+      "p50": 12300,
+      "p75": 15800,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Front-end",
+      "level": "Sênior",
+      "p25": 12450,
+      "p50": 14700,
+      "p75": 18200,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Back-end",
+      "level": "Júnior",
+      "p25": 6050,
+      "p50": 6850,
+      "p75": 8750,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Back-end",
+      "level": "Pleno",
+      "p25": 9500,
+      "p50": 12350,
+      "p75": 15900,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Back-end",
+      "level": "Sênior",
+      "p25": 12400,
+      "p50": 16250,
+      "p75": 20900,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Full-stack",
+      "level": "Júnior",
+      "p25": 6050,
+      "p50": 6850,
+      "p75": 8750,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Full-stack",
+      "level": "Pleno",
+      "p25": 9550,
+      "p50": 12400,
+      "p75": 15900,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Full-stack",
+      "level": "Sênior",
+      "p25": 12450,
+      "p50": 16250,
+      "p75": 20950,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Mobile",
+      "level": "Júnior",
+      "p25": 6050,
+      "p50": 6850,
+      "p75": 8750,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Mobile",
+      "level": "Pleno",
+      "p25": 8950,
+      "p50": 11750,
+      "p75": 15050,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Mobile",
+      "level": "Sênior",
+      "p25": 12950,
+      "p50": 16950,
+      "p75": 21800,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Analista de testes",
+      "level": "Júnior",
+      "p25": 5900,
+      "p50": 7450,
+      "p75": 9600,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Analista de testes",
+      "level": "Pleno",
+      "p25": 7700,
+      "p50": 10050,
+      "p75": 12900,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Analista de testes",
+      "level": "Sênior",
+      "p25": 10050,
+      "p50": 13100,
+      "p75": 16900,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Product Owner",
+      "level": "Não segmentado",
+      "p25": 7850,
+      "p50": 11200,
+      "p75": 14000,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    },
+    {
+      "role": "Gerente de Produto",
+      "level": "Não segmentado",
+      "p25": 11450,
+      "p50": 14650,
+      "p75": 18600,
+      "source": "https://www.roberthalf.com/br/pt/vagas-detalhes/desenvolvedora-back-end-pleno"
+    }
+  ],
+  "updated": "16/10/2026",
+  "year": 2026
+}
