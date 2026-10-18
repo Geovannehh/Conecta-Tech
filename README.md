@@ -103,41 +103,7 @@ Explica as referências editoriais, a origem da pesquisa salarial, o recorte dos
 | Tipografia | Inter, com alternativa Segoe UI/sans-serif |
 | Publicação compatível | WSGI / PythonAnywhere |
 
-## Executar localmente
 
-É necessário ter **Python 3.10 ou mais recente**, com `pip`. Extraia o ZIP e abra um terminal dentro da pasta `conecta-campus`.
-
-### Windows
-
-```powershell
-python -m venv .venv
-.venv\Scripts\python.exe -m pip install -r requirements.txt
-.venv\Scripts\python.exe flask_app.py
-```
-
-### Linux e macOS
-
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python flask_app.py
-```
-
-Abra [http://127.0.0.1:5000](http://127.0.0.1:5000) no navegador. O banco SQLite e a chave local são criados automaticamente na primeira execução. A porta 5000 é a porta padrão do projeto; as capturas foram feitas em uma prévia de verificação na porta 5080.
-
-O comando acima inicia o servidor de desenvolvimento. Para hospedagem, use a configuração WSGI descrita em [Publicação no PythonAnywhere](docs/PYTHONANYWHERE.md).
-
-## Administração
-
-Crie um usuário administrativo com o Python do ambiente virtual:
-
-```powershell
-.venv\Scripts\python.exe manage_admin.py
-```
-
-Em Linux/macOS, use `.venv/bin/python manage_admin.py`. O programa solicita usuário e senha, armazenando somente o hash da senha. O login fica em `/admin/login` e o painel em `/admin`.
-
-O painel administrativo foi preservado da versão de acolhimento do campus. Ele apresenta os registros dos recursos antigos e **não acompanha as novas jornadas**, cujo progresso fica no navegador.
 
 ## Como funciona a gamificação
 
@@ -159,45 +125,3 @@ Os dados são uma fotografia da consulta, sem atualização automática. Áreas 
 
 Os recursos de estudo estão vinculados a cada trilha. Há conteúdo em português e inglês. A plataforma não possui vínculo oficial com roadmap.sh ou Rocketseat.
 
-## Estrutura do projeto
-
-```text
-conecta-campus/
-├── flask_app.py               # Aplicação Flask e rotas existentes
-├── campus_data.py             # Dados dos recursos originais do campus
-├── manage_admin.py            # Criação de administrador
-├── pythonanywhere_wsgi.py     # Entrada WSGI
-├── requirements.txt
-├── README.md
-├── templates/
-│   ├── index.html             # Estrutura da plataforma pública
-│   ├── admin_login.html
-│   └── admin.html
-├── static/
-│   ├── tech-data.json         # Áreas, cargos, missões e salários
-│   ├── css/tech.css           # Paleta escura, Inter e layout responsivo
-│   └── js/tech.js             # Navegação, busca e gamificação
-└── docs/
-    ├── screenshots/           # Capturas usadas neste README
-    ├── tech-source/build_data.js
-    ├── TRANSFORMACAO-TECH.md
-    └── PYTHONANYWHERE.md
-```
-
-A pasta `instance/` é criada em execução e não acompanha o pacote para download. O projeto também preserva arquivos estáticos utilizados pelas telas administrativas.
-
-## Editar o conteúdo
-
-Edite `static/tech-data.json` para atualizar o catálogo. Preserve IDs existentes quando quiser manter a compatibilidade com o progresso salvo nos navegadores. O arquivo `docs/tech-source/build_data.js` é a fonte de geração do catálogo; se executá-lo, ele grava o JSON ao lado do próprio script. Copie o resultado para `static/tech-data.json` para disponibilizá-lo na aplicação.
-
-As cores e a tipografia ficam em `static/css/tech.css`. As interações e regras de progressão ficam em `static/js/tech.js`.
-
-## Armazenamento e limitações
-
-- Missões, XP e trilha principal são armazenados somente no navegador, sem conta ou sincronização na nuvem.
-- Limpar os dados do site pode apagar o progresso; use a exportação para manter uma cópia.
-- O ZIP não contém bancos existentes, senhas, chave de sessão, ambiente virtual ou histórico Git.
-- A fonte Inter é carregada pelo Google Fonts; sem conexão, a interface utiliza uma fonte alternativa do sistema.
-- O endpoint `/health` responde com o estado do serviço para diagnóstico básico.
-
-Veja também o [registro da transformação](docs/TRANSFORMACAO-TECH.md).
